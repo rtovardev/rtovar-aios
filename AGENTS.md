@@ -53,6 +53,14 @@ algo— escríbelo en `memory/wiki/` y enlázalo desde el índice.
 
 ## Skills
 
-Las capacidades reutilizables viven en `skills/`. Cada una es una carpeta con un `SKILL.md`.
+Las capacidades reutilizables viven en `skills/`. Cada una es una carpeta con un `SKILL.md`, y
+arriba de ese archivo hay una `description` que dice **cuándo** usarla.
+
+**Antes de responderme a cualquier cosa que no sea una pregunta trivial, mira qué hay en `skills/`
+y lee la `description` de cada una.** Si alguna aplica a lo que te acabo de pedir, ábrela y sigue
+sus instrucciones al pie de la letra, aunque yo no la haya nombrado. Dime cuál estás usando.
+
+Yo casi nunca voy a escribir el nombre de una skill. Voy a pedirte lo que quiero en español y tú
+tienes que reconocerlo.
 
 Si me ves haciendo la misma tarea por tercera vez, dímelo y propón convertirla en una skill.

@@ -23,17 +23,20 @@ otra vez. Un AIOS invierte eso: escribes el contexto una sola vez y todo lo dem�
 
 ```
 .
-├── AGENTS.md          ← quién eres y cómo quieres trabajar. Se lee siempre
-├── universidad/       ← una carpeta por materia
-├── proyectos/         ← lo que estás construyendo
-├── entregables/       ← lo que sale terminado
-├── memory/            ← lo que el sistema recuerda entre conversaciones
+├── AGENTS.md               ← quién eres y cómo quieres trabajar. Se lee siempre
+├── universidad/            ← una carpeta por materia
+├── proyectos/              ← lo que estás construyendo
+├── entregables/            ← lo que sale terminado
+├── memory/                 ← lo que el sistema recuerda entre conversaciones
 │   ├── index.md
 │   └── wiki/
-└── skills/            ← lo que el sistema sabe hacer
-    ├── audit/         ← revisa tu sistema y te dice qué falta
-    ├── brief/         ← qué tienes por delante
-    └── crear-skill/   ← te enseña a escribir las tuyas
+└── skills/                 ← lo que el sistema sabe hacer
+    ├── audit/              ← revisa tu sistema y te dice qué falta
+    ├── brief/              ← qué tienes por delante
+    ├── crear-skill/        ← te enseña a escribir las tuyas
+    ├── estudiar/           ← te toma quiz sobre el material de tus materias
+    ├── guardar-en-memoria/ ← escribe una página nueva y la enlaza en el índice
+    └── pagina-web/         ← tu portafolio en HTML plano, publicable gratis
 ```
 
 Las tres capas que lo sostienen son siempre las mismas: **contexto** (`AGENTS.md`), **memoria**
@@ -70,8 +73,14 @@ Tres reglas que hacen que esto funcione a largo plazo:
 
 ## Compatibilidad
 
-`AGENTS.md` y el formato `SKILL.md` son estándares abiertos: funcionan en Codex CLI, Claude Code,
-OpenClaw y Cursor sin cambiar nada. Si mañana cambias de herramienta, tu AIOS se va contigo.
+`AGENTS.md` y el formato `SKILL.md` son estándares abiertos. Tu contexto, tu memoria y tus skills
+se leen igual en Codex CLI, Claude Code, OpenClaw y Cursor. Si mañana cambias de herramienta, tu
+AIOS se va contigo.
+
+Un detalle real, probado: en **Codex** las skills se activan solas con solo pedir lo que quieres
+("tengo examen, hazme preguntas"). En **Claude Code** a veces hay que nombrarlas ("usa la skill
+estudiar"), porque busca las suyas en otra carpeta. Mismo archivo, mismo resultado, un pelo más de
+fricción.
 
 Eso es justamente el punto: las herramientas caducan, tu sistema no.
 
