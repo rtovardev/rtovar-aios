@@ -31,7 +31,9 @@ otra vez. Un AIOS invierte eso: escribes el contexto una sola vez y todo lo dem�
 │   ├── index.md
 │   └── wiki/
 └── skills/                 ← lo que el sistema sabe hacer
+    ├── setup/              ← te entrevista y te deja el AIOS configurado
     ├── audit/              ← revisa tu sistema y te dice qué falta
+    ├── mejorar/            ← te propone la siguiente mejora que vale la pena
     ├── brief/              ← qué tienes por delante
     ├── crear-skill/        ← te enseña a escribir las tuyas
     ├── estudiar/           ← te toma quiz sobre el material de tus materias
@@ -45,12 +47,14 @@ Las tres capas que lo sostienen son siempre las mismas: **contexto** (`AGENTS.md
 ## Empezar en 5 minutos
 
 1. Descarga esta carpeta y ponle tu nombre. Vivirá contigo un buen tiempo.
-2. Abre `AGENTS.md` y rellena los huecos `<...>`. Sé concreto: *"Ingeniería Eléctrica, cuarto año,
-   UTP"* sirve mucho más que *"soy estudiante"*.
-3. Abre tu agente **dentro** de la carpeta — esto es lo importante, ahí es donde ve todo:
+2. Abre tu agente **dentro** de la carpeta — esto es lo importante, ahí es donde ve todo:
    ```bash
    cd mi-aios
    codex          # o: claude
+   ```
+3. Deja que te entreviste y lo configure por ti:
+   ```
+   Corre el setup
    ```
 4. Pídele que se revise a sí mismo:
    ```
@@ -70,6 +74,9 @@ Tres reglas que hacen que esto funcione a largo plazo:
 1. **Si te descubres explicando lo mismo dos veces, va en `AGENTS.md`.**
 2. **Si vale la pena repetir la tarea, es una skill.** Escríbela la tercera vez que la hagas.
 3. **Si no está en las fuentes, el agente debe decirlo.** Nunca dejes que rellene huecos por ti.
+
+Y cada par de semanas, pídele `Corre el mejorar`. Mira cómo has estado usando el sistema y te
+propone la siguiente cosa que vale la pena, en vez de esperar a que se te ocurra a ti.
 
 ## Compatibilidad
 

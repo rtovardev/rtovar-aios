@@ -28,7 +28,7 @@ Evalúa las cinco capas. Para cada una, asigna un estado y una razón concreta.
 
 ### 3. Skills — `skills/`
 
-- ¿Cuántas skills hay además de las seis que vienen en la plantilla?
+- ¿Cuántas skills hay además de las ocho que vienen en la plantilla?
 - ¿Cada `SKILL.md` tiene frontmatter con `name` y `description`?
 - ¿Las descripciones dicen **cuándo** usar la skill, o solo qué hace? Una descripción sin
   disparadores no se activa nunca.
