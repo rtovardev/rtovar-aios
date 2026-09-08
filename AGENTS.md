@@ -1,5 +1,9 @@
 # Contexto de mi AIOS
 
+> Esta es una plantilla educativa simplificada de Ricardo Tovar, no una instancia oficial de
+> `mart-aios`. Su objetivo es enseñar contexto, memoria y skills sin introducir la complejidad del
+> molde operativo de producción.
+
 > Este archivo se lee **siempre**, en cada conversación. Es lo que separa un chat de un sistema.
 > Rellena los huecos `<...>` y borra los ejemplos. Sé específico: lo vago no ayuda al agente.
 

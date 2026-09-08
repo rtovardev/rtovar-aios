@@ -1,5 +1,10 @@
 # Tu AIOS
 
+> **Plantilla educativa de Ricardo Tovar.** Este repositorio enseña el concepto con una estructura
+> deliberadamente pequeña para talleres y aprendizaje. No es el molde operativo oficial ni una
+> distribución de producción. El contrato oficial que usa Ricardo para sus AIOS reales es
+> [`MART-Automations/mart-aios`](https://github.com/MART-Automations/mart-aios).
+
 Un **AIOS** es un sistema operativo de inteligencia artificial: un solo directorio desde el que
 trabajas, donde vive tu contexto, tu memoria y tus capacidades, y desde el que un agente puede
 actuar sobre todo lo que tienes dentro.
@@ -79,6 +84,11 @@ Y cada par de semanas, pídele `Corre el mejorar`. Mira cómo has estado usando 
 propone la siguiente cosa que vale la pena, en vez de esperar a que se te ocurra a ti.
 
 ## Compatibilidad
+
+Esta plantilla conserva tres capas pedagógicas —contexto, memoria y capacidades— para que el concepto
+se entienda en minutos. `mart-aios` amplía ese modelo a siete capas verificables, perfiles, entornos,
+gobernanza, conexiones y mantenimiento de producción. No se promete sincronización archivo por archivo
+entre ambos repositorios.
 
 `AGENTS.md` y el formato `SKILL.md` son estándares abiertos. Tu contexto, tu memoria y tus skills
 se leen igual en Codex CLI, Claude Code, OpenClaw y Cursor. Si mañana cambias de herramienta, tu
