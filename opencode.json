@@ -1,0 +1,48 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "model": "opencode/glm-5.3-flash-free",
+  "instructions": [
+    "memory/index.md"
+  ],
+  "permission": {
+    "*": "ask",
+    "read": "allow",
+    "glob": "allow",
+    "grep": "allow",
+    "list": "allow",
+    "skill": "allow",
+    "bash": {
+      "*": "ask",
+      "ls*": "allow",
+      "cat *": "allow",
+      "head *": "allow",
+      "wc *": "allow",
+      "grep *": "allow",
+      "find *": "allow",
+      "pwd": "allow",
+      "git status*": "allow",
+      "git log*": "allow",
+      "opencode mcp list": "allow",
+      "rg *": "allow",
+      "tree*": "allow",
+      "stat *": "allow",
+      "file *": "allow"
+    }
+  },
+  "mcp": {
+    "composio": {
+      "type": "remote",
+      "url": "https://connect.composio.dev/mcp",
+      "enabled": false,
+      "oauth": false,
+      "timeout": 20000,
+      "headers": {
+        "x-consumer-api-key": "{env:COMPOSIO_CONSUMER_KEY}"
+      }
+    }
+  },
+  "tools": {
+    "composio_COMPOSIO_REMOTE_BASH_TOOL": false,
+    "composio_COMPOSIO_REMOTE_WORKBENCH": false
+  }
+}
