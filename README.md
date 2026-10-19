@@ -2,8 +2,6 @@
 
 Una carpeta donde tu agente de IA sabe quién eres, recuerda lo que importa y sabe hacer lo que le enseñes. Funciona con [OpenCode](https://opencode.ai) (gratis, de código abierto), Codex y Claude Code.
 
-Se presentó en el taller «Un sistema, no una conversación» de CONTECS, Universidad Tecnológica de Panamá, el 19 de octubre de 2026.
-
 ## Qué es un sistema operativo de IA
 
 Un chat empieza de cero cada vez. Este sistema acumula, en tres capas de texto plano:
