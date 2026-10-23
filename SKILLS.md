@@ -27,10 +27,9 @@ Cada skill es una carpeta en `.agents/skills/` con un `SKILL.md`. El agente lee 
 |---|---|---|
 | `brief` | Tu día: pendientes del sistema y, si están conectados, calendario, correo y GitHub. Solo lee. | `/brief`, «qué tengo hoy» |
 | `research` | Investiga una pregunta en fuentes primarias y guarda lo encontrado en un Markdown. De Matt Pocock. | «investiga…», «busca en la documentación» |
-| `unslop` | Quita las muletillas de IA de un texto que vas a entregar o publicar. De Lauren Tan (Cursor). | «quítale lo de IA a esto» |
 | `pagina-web` | Tu portafolio en HTML plano, publicable gratis. | «hazme una página», «quiero un portafolio» |
 
-`teach`, `grill-me`, `research` y `unslop` están en inglés, tal como las publicaron sus autores. El agente te responde en español igual.
+`teach`, `grill-me` y `research` están en inglés, tal como las publicaron sus autores. El agente te responde en español igual.
 
 ## Mis skills
 

@@ -8,7 +8,6 @@ Estas skills se copiaron sin cambios de sus repositorios de origen. Cada carpeta
 | `grilling` | Matt Pocock | https://github.com/mattpocock/skills (`skills/productivity/grilling`) | `49dd158` | MIT |
 | `grill-me` | Matt Pocock | https://github.com/mattpocock/skills (`skills/productivity/grill-me`) | `49dd158` | MIT |
 | `research` | Matt Pocock | https://github.com/mattpocock/skills (`skills/engineering/research`) | `49dd158` | MIT |
-| `unslop` | Lauren Tan | https://github.com/cursor/plugins (`pstack/skills/unslop`) | `bc697d0` | MIT |
 
 `grill-me` solo invoca a `grilling`, por eso van juntas.
 
