@@ -113,4 +113,4 @@ mi-sistema/
 
 ## Licencia
 
-MIT. Las skills `teach`, `grilling`, `grill-me`, `research` y `unslop` son de sus autores, también con licencia MIT: ver [THIRD_PARTY.md](THIRD_PARTY.md).
+MIT. Las skills `teach`, `grilling`, `grill-me` y `research` son de sus autores, también con licencia MIT: ver [THIRD_PARTY.md](THIRD_PARTY.md).
